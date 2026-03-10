@@ -4,7 +4,7 @@
 [![R Markdown](https://img.shields.io/badge/Built%20with-R%20Markdown-276DC3)](Project.Rmd)
 [![Cancer Type](https://img.shields.io/badge/TCGA-KIRP-blue)](Project.Rmd)
 
-A bioinformatics project that analyzes **Kidney Renal Papillary Cell Carcinoma (KIRP)** using TCGA data. The workflow combines differential expression, gene co-expression analysis, differential network analysis, patient similarity networks, and similarity network fusion to study tumor biology and patient stratification.
+A university bioinformatics project focused on **Kidney Renal Papillary Cell Carcinoma (KIRP)** using TCGA data. The workflow combines differential expression, gene co-expression analysis, differential network analysis, patient similarity networks, and similarity network fusion to study tumor biology and patient stratification.
 
 ## Overview
 
@@ -30,8 +30,7 @@ The analysis covers:
 
 - `Project.Rmd` — main analysis workflow and source of truth for the project
 - `Presentation.pdf` — presentation slides summarizing the project
-- `Report.pdf` — rendered report/documentation for the analysis
-- `images/` — project figures and supporting images used by the report
+- `Report.pdf` — the official paper written from the results of this university project
 - `LICENSE` — MIT license
 
 ## What the workflow does
@@ -170,6 +169,7 @@ A typical workflow for a developer or researcher is:
 3. Review the DEG results and volcano plot
 4. Inspect co-expression and differential network outputs
 5. Explore PSN/SNF community assignments and downstream biological interpretation
+6. Read `Report.pdf` for the official paper describing the methods, results, and conclusions of the project
 
 ## Outputs
 
@@ -180,45 +180,37 @@ Depending on which sections you run, the project can produce:
 - PSN and SNF community plots
 - Enrichment visualizations and pathway figures
 
-The repository already includes `Report.pdf` and `Presentation.pdf` as reference outputs.
+The repository already includes `Report.pdf` as the official paper and `Presentation.pdf` as a summary presentation.
 
 ## Help and support
 
 If you need help getting started:
 - Read the workflow source in `Project.Rmd`
-- Review the generated project report in `Report.pdf`
-- Check the presentation overview in `Presentation.pdf`
+- Read `Report.pdf`, the official paper produced from this project
+- Review `Presentation.pdf` for a concise overview of the work
 - Consult package documentation for `TCGAbiolinks`, `DESeq2`, and `SNFtool`
 
-Because this repository does not currently expose GitHub Issues, the best support path is to contact the maintainer through the repository owner profile.
+Because this repository does not currently expose GitHub Issues, the best support path is to contact the repository owner through their GitHub profile.
 
 ## Contributing
 
-Contributions are welcome.
+This repository primarily archives a **university project** and its final materials. Contributions are therefore expected to be limited, but improvements to documentation, reproducibility, or clarity are still welcome.
 
-Suggested process:
+If you would like to contribute:
 1. Fork the repository
 2. Create a feature branch
 3. Make focused, well-documented changes
-4. Re-render outputs if your changes affect analysis results or figures
-5. Open a pull request with a clear summary of what changed and why
-
-When contributing, prefer:
-- small, reviewable commits
-- clear explanations for analytical choices
-- reproducible code and explicit package requirements
-- preserving generated outputs only when they are intentionally updated
-
-If a dedicated `CONTRIBUTING.md` file is added later, prefer that document for detailed contribution guidance.
+4. Re-render outputs if your changes affect analysis results or text
+5. Open a pull request with a clear explanation of the update
 
 ## Maintainers and authors
 
-This project is maintained in this fork by **@azzadom**.
+This repository preserves a university project authored by:
+- **Domenico Azzarito**
+- **Federico Lattanzio**
+- **Michele Pezza**
 
-The R Markdown subtitle credits the project authors as:
-- Domenico Azzarito
-- Federico Lattanzio
-- Michele Pezza
+The repository is maintained on GitHub by **@azzadom**.
 
 This repository is a fork of `michelepezza99/Precision-Medicine-Project---TCGA-KIRP-cancer`.
 
