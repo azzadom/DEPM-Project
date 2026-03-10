@@ -18,19 +18,11 @@ The analysis covers:
 - Similarity Network Fusion (SNF) using expression and mutation data
 - Optional enrichment analysis and survival/community characterization
 
-## Why this project is useful
-
-- Provides a reproducible, notebook-style workflow for a precision medicine case study
-- Demonstrates how to use TCGA/GDC data programmatically from R
-- Combines transcriptomic, mutational, network, and clustering analyses in one place
-- Produces publication-style visualizations for biological interpretation
-- Useful as both a research reference and a learning resource for biomedical data analysis
-
 ## Repository structure
 
 - `Project.Rmd` — main analysis workflow and source of truth for the project
 - `Presentation.pdf` — presentation slides summarizing the project
-- `Report.pdf` — the official paper written from the results of this university project
+- `Report.pdf` — the official paper written from the project results
 - `LICENSE` — MIT license
 
 ## What the workflow does
@@ -160,48 +152,9 @@ Or open `Project.Rmd` in RStudio and use **Knit**.
 - Several chunks are written as analysis notes, so you may want to execute the notebook section by section the first time.
 - PDF rendering requires a working LaTeX engine compatible with `xelatex`.
 
-## Example workflow
-
-A typical workflow for a developer or researcher is:
-
-1. Install the required R and Bioconductor packages
-2. Render `Project.Rmd`
-3. Review the DEG results and volcano plot
-4. Inspect co-expression and differential network outputs
-5. Explore PSN/SNF community assignments and downstream biological interpretation
-6. Read `Report.pdf` for the official paper describing the methods, results, and conclusions of the project
-
-## Outputs
-
-Depending on which sections you run, the project can produce:
-- Rendered HTML/PDF reports from `Project.Rmd`
-- DEG tables and volcano plots
-- Co-expression and differential network statistics
-- PSN and SNF community plots
-- Enrichment visualizations and pathway figures
-
-The repository already includes `Report.pdf` as the official paper and `Presentation.pdf` as a summary presentation.
-
-## Help and support
-
-If you need help getting started:
-- Read the workflow source in `Project.Rmd`
-- Read `Report.pdf`, the official paper produced from this project
-- Review `Presentation.pdf` for a concise overview of the work
-- Consult package documentation for `TCGAbiolinks`, `DESeq2`, and `SNFtool`
-
-Because this repository does not currently expose GitHub Issues, the best support path is to contact the repository owner through their GitHub profile.
-
 ## Contributing
 
 This repository primarily archives a **university project** and its final materials. Contributions are therefore expected to be limited, but improvements to documentation, reproducibility, or clarity are still welcome.
-
-If you would like to contribute:
-1. Fork the repository
-2. Create a feature branch
-3. Make focused, well-documented changes
-4. Re-render outputs if your changes affect analysis results or text
-5. Open a pull request with a clear explanation of the update
 
 ## Maintainers and authors
 
@@ -211,8 +164,6 @@ This repository preserves a university project authored by:
 - **Michele Pezza**
 
 The repository is maintained on GitHub by **@azzadom**.
-
-This repository is a fork of `michelepezza99/Precision-Medicine-Project---TCGA-KIRP-cancer`.
 
 ## License
 
